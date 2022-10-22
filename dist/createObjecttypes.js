@@ -10,3 +10,4 @@ person = {
     course: 'TI',
     notes: 10,
 };
+console.log(person);
