@@ -1,3 +1,5 @@
+//Normalmente um array contém de zero à muitos objetos de um mesmo tipo. O TypeScript possui uma análise especial sobre arrays que contêm múltiplos tipos, e quando a ordem em que eles estão indexados é importante. Esses são chamados de tuplas.
+
 // Ex 01 uso simples de tuplas  em Typescript
 let pessoa: [string, string, number];
 pessoa = ['Marcus','Programador', 25];
@@ -27,6 +29,7 @@ let resultado = parametrosComTuplas(['Marcus','vinicius'],[25,10])
  
 
 
+//avançado! rever mais sobre depois
 // Ex 07 Labled Tuples com spread operator numa funcao 
 type Nome = 
      |[primeiroNome: string, sobrenome:string,]
@@ -38,4 +41,6 @@ type Nome =
 
      } 
 
+
     
+  
