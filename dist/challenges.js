@@ -12,4 +12,3 @@ const compara = (valor1, valor2) => {
         return 'são diferente';
     }
 };
-// Crie 
