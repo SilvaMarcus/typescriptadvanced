@@ -16,5 +16,3 @@ const compara = (valor1:any, valor2:any): string => {
      }
 } 
 
-// Crie 
-
